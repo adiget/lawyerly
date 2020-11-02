@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedIds">
+    <item
+        android:id="@+id/navigation_first_tab_graph"
+        android:icon="@drawable/first_tab"
+        android:title="@string/home_tab_first" />
+    <item
+        android:id="@+id/navigation_calendar_tab_graph"
+        android:icon="@drawable/second_tab"
+        android:title="@string/home_tab_calendar" />
+    <item
+        android:id="@+id/navigation_favorites_tab_graph"
+        android:icon="@drawable/third_tab"
+        android:title="@string/home_tab_favorites" />
+    <item
+        android:id="@+id/navigation_payments_tab_graph"
+        android:icon="@drawable/fourth_tab"
+        android:title="@string/home_tab_payments" />
+    <item
+        android:id="@+id/navigation_settings_tab_graph"
+        android:icon="@drawable/fifth_tab"
+        android:title="@string/home_tab_settings" />
+</menu>

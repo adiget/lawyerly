@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lawyerly</string>
+
+    <!--Home tab items-->
+    <string name="home_tab_first">Lawyers</string>
+    <string name="home_tab_calendar">Calendar</string>
+    <string name="home_tab_favorites">Favorites</string>
+    <string name="home_tab_payments">Payments</string>
+    <string name="home_tab_settings">Settings</string>
+
+    <!--menu items-->
+    <string name="menu_sort_by">Sort By</string>
+    <string name="menu_filter">Filter</string>
+    
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
+    <string name="another_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur.</string>
+
+
+</resources>

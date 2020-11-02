@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="titleTextAppearance">@style/TitleBarTextAppearance</item>
+    </style>
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_medium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="NameTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+
+    <style name="SpecialityTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+    <style name="PriceTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="PricePerHourTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_light</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DetailsNameTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DescriptionTitleTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DescriptionTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BannerTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+
+    /////
+
+    <style name="TextLightAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextRegularAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextBoldAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans</item>
+        <item name="android:textSize">19.5sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextRegularGrayAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/blogger_sans</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:alpha">0.6</item>
+    </style>
+
+    <style name="NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/blogger_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+</resources>

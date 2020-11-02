@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/reviews"
+        style="@style/TextLightAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        tools:text="12" />
+
+    <ImageView
+        android:id="@+id/reviews_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:contentDescription="reviews_image"
+        android:src="@drawable/reviews_colour"
+        app:layout_constraintBottom_toBottomOf="@id/reviews"
+        app:layout_constraintLeft_toRightOf="@id/reviews"
+        app:layout_constraintTop_toTopOf="@id/reviews" />
+
+    <TextView
+        android:id="@+id/reviews_label"
+        style="@style/TextRegularAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reviews"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:text="Reviews" />
+
+    <ImageView
+        android:id="@+id/reviews_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:contentDescription="reviews_nav"
+        android:src="@drawable/small_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/reviews_label"
+        app:layout_constraintLeft_toRightOf="@id/reviews_label"
+        app:layout_constraintTop_toTopOf="@id/reviews_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
